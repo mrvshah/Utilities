@@ -1,0 +1,136 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="99" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="99" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="156" fromTop="7" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="564" fromTop="11" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="518" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="1264" fromTop="48" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="309" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="113" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="99" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="690" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="631" fromTop="4" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="490" fromTop="17" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="486" fromTop="19" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="222" fromTop="10" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="568" fromTop="17" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="89" fromTop="6" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="146" fromTop="9" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="600" fromTop="18" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="630" fromTop="27" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="595" fromTop="26" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="595" fromTop="32" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="417" fromTop="8" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="175" fromTop="9" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="733" fromTop="23" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="890" fromTop="21" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="971" fromTop="27" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="818" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="742" fromTop="8" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="175" fromTop="9" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="386" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="310" fromTop="12" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="562" fromTop="10" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="340" fromTop="12" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="518" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Stopwatch`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Test" priority="1" />
+      <Item value="public" priority="3" />
+      <Item value="void" priority="4" />
+      <Item value="var" priority="1" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="Is`0" priority="0" />
+      <Item value="CreditCardType`0" priority="1" />
+      <Item value="static" priority="3" />
+      <Item value="this" priority="1" />
+      <Item value="string" priority="4" />
+      <Item value="return" priority="1" />
+      <Item value="if" priority="1" />
+      <Item value="System" priority="1" />
+      <Item value="Enum`0" priority="1" />
+      <Item value="enumAsString" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="T`0" priority="3" />
+      <Item value="enumResult" priority="2" />
+      <Item value="throw" priority="1" />
+      <Item value="new" priority="1" />
+      <Item value="ArgumentException" priority="0" />
+      <Item value="null" priority="8" />
+      <Item value="ExpectedException" priority="1" />
+      <Item value="typeof" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="t" priority="0" />
+      <Item value="ArgumentNullExceptionTests`0" priority="0" />
+      <Item value="private" priority="1" />
+      <Item value="arg" priority="3" />
+      <Item value="object" priority="3" />
+      <Item value="ArgumentNullException" priority="0" />
+      <Item value="message" priority="0" />
+      <Item value="MethodThatChecksForNullArgument`0" priority="0" />
+      <Item value="ExpectedMessage" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="Array`0" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="Customer`0" priority="0" />
+      <Item value="customer" priority="1" />
+      <Item value="foreach" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="ArgumentExtensionsTests`0" priority="0" />
+      <Item value="parameters" priority="0" />
+      <Item value="args" priority="2" />
+      <Item value="ThrowIfNull`0" priority="0" />
+      <Item value="s" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="EqualTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Tests.Enum.CreditCardType">
+      <Item value="Amex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="TryParse`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ThrowIfNull`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.Exception.ArgumentExtensions">
+      <Item value="ThrowIfNull`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
