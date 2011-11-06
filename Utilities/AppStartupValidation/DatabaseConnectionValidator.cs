@@ -1,13 +1,13 @@
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
-using Utilities.AppStartupValidators;
 using Utilities.Arguments;
 
 namespace Utilities.AppStartupValidation
 {
 	///<summary>
-	/// Database connection validator
+	/// Validates by checking if database connection string exists and then by establishing connection
 	///</summary>
 	public class DatabaseConnectionValidator : IValidator
 	{
@@ -20,6 +20,7 @@ namespace Utilities.AppStartupValidation
 		/// Initializes a new instance of type <see cref="DatabaseConnectionValidator"/>
 		/// </summary>
 		/// <param name="connectionStringNames">List of connection string names to validate</param>
+		/// <exception cref="ArgumentNullException"/>
 		public DatabaseConnectionValidator(IEnumerable<string> connectionStringNames)
 		{
 			connectionStringNames.ThrowIfNull();
@@ -28,8 +29,10 @@ namespace Utilities.AppStartupValidation
 		}
 
 		/// <summary>
-		/// Validate connection strings
+		/// Loop through each connection string names and validates by checking if it exists and then by establishing connection
 		/// </summary>
+		/// <exception cref="ConfigurationErrorsException"/>
+		/// <exception cref="SqlException"/>
 		public void Validate()
 		{
 			foreach (var connectionStringName in connectionStringNames)

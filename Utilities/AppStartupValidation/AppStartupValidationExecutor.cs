@@ -1,5 +1,5 @@
+using System;
 using System.Collections.Generic;
-using Utilities.AppStartupValidators;
 using Utilities.Arguments;
 
 namespace Utilities.AppStartupValidation
@@ -13,6 +13,7 @@ namespace Utilities.AppStartupValidation
 		/// Calls Validate method on all validators
 		/// </summary>
 		/// <param name="validators">The validators</param>
+		/// <exception cref="ArgumentNullException"/>
 		public static void ValidateAll(IEnumerable<IValidator> validators)
 		{
 			validators.ThrowIfNull();

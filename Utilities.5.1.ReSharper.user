@@ -11,44 +11,65 @@
     <RecentFiles>
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="99" fromTop="7" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="156" fromTop="4" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="87" fromTop="3" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="237" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="0" fromTop="0" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="0" fromTop="0" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:DataRowExtensions.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="774" fromTop="28" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1307" fromTop="31" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/d:Minifiers/d:Css/f:CssMinifier.cs" caret="85" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/d:Minifiers/d:JavaScript/f:JavaScriptMinifier.cs" caret="92" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHandler.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="511" fromTop="11" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:IValidator.cs" caret="216" fromTop="8" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:AppStartupValidationExecutorTests.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="270" fromTop="9" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="239" fromTop="4" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DatabaseConnectionValidatorTests.cs" caret="721" fromTop="26" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DatabaseConnectionValidator.cs" caret="257" fromTop="9" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="973" fromTop="17" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="758" fromTop="9" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="1732" fromTop="33" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/d:FileValidatorData/f:File1.txt" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="299" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:AppSettingsValidatorTests.cs" caret="742" fromTop="8" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="945" fromTop="34" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="385" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="1192" fromTop="41" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="810" fromTop="33" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="897" fromTop="37" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="254" fromTop="11" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="351" fromTop="13" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="496" fromTop="15" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="496" fromTop="24" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="410" fromTop="17" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="153" fromTop="4" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="535" fromTop="22" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="525" fromTop="20" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="149" fromTop="7" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="42" fromTop="2" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="94" fromTop="4" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="614" fromTop="28" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="87" fromTop="3" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="730" fromTop="25" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="423" fromTop="17" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="314" fromTop="17" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="422" fromTop="23" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="274" fromTop="13" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="387" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1425" fromTop="35" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="24" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="48" fromTop="1" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="703" fromTop="20" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="420" fromTop="15" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="334" fromTop="7" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="553" fromTop="14" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="1082" fromTop="25" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="747" fromTop="16" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="915" fromTop="14" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="1727" fromTop="22" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="1675" fromTop="23" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="201" fromTop="6" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="396" fromTop="8" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="735" fromTop="10" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="1629" fromTop="33" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="187" fromTop="8" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="368" fromTop="16" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="588" fromTop="14" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="695" fromTop="20" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="1550" fromTop="20" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="1188" fromTop="11" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="1010" fromTop="12" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="767" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="255" fromTop="6" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="443" fromTop="11" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="789" fromTop="19" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="1252" fromTop="24" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="1192" fromTop="26" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -64,35 +85,35 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="Stopwatch`0" priority="0" />
-      <Item value="using" priority="3" />
-      <Item value="Test" priority="4" />
-      <Item value="public" priority="12" />
-      <Item value="void" priority="10" />
-      <Item value="var" priority="6" />
-      <Item value="Assert`0" priority="2" />
+      <Item value="using" priority="4" />
+      <Item value="Test" priority="9" />
+      <Item value="public" priority="17" />
+      <Item value="void" priority="16" />
+      <Item value="var" priority="14" />
+      <Item value="Assert`0" priority="3" />
       <Item value="Is`0" priority="2" />
       <Item value="CreditCardType`0" priority="1" />
-      <Item value="static" priority="5" />
+      <Item value="static" priority="7" />
       <Item value="this" priority="1" />
-      <Item value="string" priority="13" />
-      <Item value="return" priority="9" />
-      <Item value="if" priority="4" />
-      <Item value="System" priority="6" />
+      <Item value="string" priority="31" />
+      <Item value="return" priority="12" />
+      <Item value="if" priority="8" />
+      <Item value="System" priority="7" />
       <Item value="Enum`0" priority="1" />
       <Item value="enumAsString" priority="0" />
-      <Item value="true" priority="1" />
+      <Item value="true" priority="2" />
       <Item value="T`0" priority="11" />
       <Item value="enumResult" priority="2" />
-      <Item value="throw" priority="1" />
-      <Item value="new" priority="13" />
-      <Item value="ArgumentException" priority="0" />
-      <Item value="null" priority="13" />
-      <Item value="ExpectedException" priority="1" />
-      <Item value="typeof" priority="4" />
+      <Item value="throw" priority="6" />
+      <Item value="new" priority="26" />
+      <Item value="ArgumentException" priority="1" />
+      <Item value="null" priority="16" />
+      <Item value="ExpectedException" priority="4" />
+      <Item value="typeof" priority="7" />
       <Item value="where" priority="0" />
       <Item value="t" priority="1" />
       <Item value="ArgumentNullExceptionTests`0" priority="0" />
-      <Item value="private" priority="9" />
+      <Item value="private" priority="13" />
       <Item value="arg" priority="3" />
       <Item value="object" priority="3" />
       <Item value="ArgumentNullException" priority="0" />
@@ -105,7 +126,7 @@
       <Item value="class" priority="0" />
       <Item value="Customer`0" priority="0" />
       <Item value="customer" priority="1" />
-      <Item value="foreach" priority="1" />
+      <Item value="foreach" priority="7" />
       <Item value="try" priority="0" />
       <Item value="ArgumentExtensionsTests`0" priority="0" />
       <Item value="parameters" priority="0" />
@@ -150,7 +171,7 @@
       <Item value="T2`0" priority="0" />
       <Item value="arg1" priority="0" />
       <Item value="arg2" priority="0" />
-      <Item value="ctor" priority="1" />
+      <Item value="ctor" priority="7" />
       <Item value="IDisposable`0" priority="0" />
       <Item value="Func" priority="0" />
       <Item value="func" priority="0" />
@@ -164,9 +185,60 @@
       <Item value="TimeSpanWrapper" priority="1" />
       <Item value="ActionToGrabExecutionTime`0" priority="0" />
       <Item value="actionToGrabExecutionTime" priority="0" />
+      <Item value="get" priority="0" />
+      <Item value="BaseHandler`0" priority="1" />
+      <Item value="IValidator`0" priority="7" />
+      <Item value="StartupValidationExecutorTests`0" priority="0" />
+      <Item value="validators" priority="1" />
+      <Item value="validator" priority="0" />
+      <Item value="MockRepository`0" priority="2" />
+      <Item value="appSettingsValidator" priority="2" />
+      <Item value="asv" priority="1" />
+      <Item value="databaseConnectionValidator" priority="2" />
+      <Item value="dcv" priority="1" />
+      <Item value="AppStartupValidation" priority="0" />
+      <Item value="AppSettingsValidatorTests`0" priority="0" />
+      <Item value="SetUICulture" priority="0" />
+      <Item value="sut" priority="0" />
+      <Item value="AppSettingsValidator" priority="0" />
+      <Item value="appSettingsToValidate" priority="2" />
+      <Item value="LinkedList" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="AppSettingsValidator`0" priority="0" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="List`0" priority="1" />
+      <Item value="GetAllValidAppSettings`0" priority="0" />
+      <Item value="Configuration" priority="0" />
+      <Item value="AppSettingsReader`0" priority="0" />
+      <Item value="appSetting" priority="3" />
+      <Item value="Linq" priority="0" />
+      <Item value="Concat`1" priority="0" />
+      <Item value="ConfigurationException`0" priority="0" />
+      <Item value="connectionStringNames" priority="0" />
+      <Item value="connectionStringName" priority="1" />
+      <Item value="connestionString" priority="1" />
+      <Item value="ConfigurationErrorsException" priority="0" />
+      <Item value="conn" priority="1" />
+      <Item value="connectionString" priority="0" />
+      <Item value="directoriesToValidate" priority="0" />
+      <Item value="Directory`0" priority="1" />
+      <Item value="path1" priority="0" />
+      <Item value="currentDirecotry" priority="1" />
+      <Item value="path2" priority="0" />
+      <Item value="path" priority="3" />
+      <Item value="DirectoryNotFoundException" priority="0" />
+      <Item value="DirectoryNotFoundException`0" priority="0" />
+      <Item value="filesToValidate" priority="0" />
+      <Item value="TestFixture" priority="0" />
+      <Item value="FileNotFoundException" priority="0" />
+      <Item value="appSettingQueueNamesToValidate" priority="0" />
+      <Item value="queueName" priority="0" />
+      <Item value="queue" priority="1" />
+      <Item value="MessageQueueException" priority="0" />
+      <Item value="MessageQueueException`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="That`0" priority="2" />
+      <Item value="That`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Is">
       <Item value="EqualTo`0" priority="2" />
@@ -180,8 +252,8 @@
       <Item value="TryParse`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Format`0" priority="0" />
-      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Format`0" priority="4" />
+      <Item value="IsNullOrEmpty`0" priority="2" />
       <Item value="Empty" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Object">
@@ -202,7 +274,8 @@
       <Item value="Value" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
-      <Item value="AppSettings" priority="0" />
+      <Item value="AppSettings" priority="1" />
+      <Item value="ConnectionStrings" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Convert">
       <Item value="ChangeType`0" priority="0" />
@@ -224,6 +297,51 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Utilities.Stopwatch.TimeSpanWrapper">
       <Item value="TimeSpan" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Utilities.AppStartupValidators.IValidator">
+      <Item value="Validate`0" priority="4" />
+      <Item value="Stub`2" priority="1" />
+      <Item value="AssertWasCalled`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateStub`0" priority="1" />
+      <Item value="GenerateMock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.AppStartupValidators.AppStartupValidator">
+      <Item value="ValidateAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.Configuration.AppSettingsReader">
+      <Item value="Get`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="HasKeys`0" priority="0" />
+      <Item value="Keys" priority="0" />
+      <Item value="GetKey`0" priority="0" />
+      <Item value="Get`0" priority="0" />
+      <Item value="AllKeys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Utilities.AppStartupValidation.AppSettingsValidator">
+      <Item value="Validate`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ConnectionString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetCurrentDirectory`0" priority="1" />
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Remove`0" priority="0" />
+      <Item value="Replace`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Messaging.MessageQueue">
+      <Item value="Exists`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

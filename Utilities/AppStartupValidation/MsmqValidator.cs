@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Messaging;
-using Utilities.AppStartupValidators;
 using Utilities.Arguments;
 using Utilities.Configuration;
+using Utilities.Exceptions;
 
 namespace Utilities.AppStartupValidation
 {
 	///<summary>
-	/// Msmq validator
+	/// Validates by checking if the queue exists
 	///</summary>
 	public class MsmqValidator : IValidator
 	{
@@ -21,6 +21,7 @@ namespace Utilities.AppStartupValidation
 		/// Initializes a new instance of the <see cref="MsmqValidator"/> class.
 		/// </summary>
 		/// <param name="appSettingQueueNamesToValidate">List of queues to validate</param>
+		/// <exception cref="ArgumentNullException"/>
 		public MsmqValidator(IEnumerable<string> appSettingQueueNamesToValidate)
 		{
 			appSettingQueueNamesToValidate.ThrowIfNull();
@@ -29,8 +30,9 @@ namespace Utilities.AppStartupValidation
 		}
 
 		/// <summary>
-		/// Enables validation by custom validator
+		/// Loops through each queue and checks if queue exists
 		/// </summary>
+		/// <exception cref="ArgumentException"/>
 		public void Validate()
 		{
 			foreach (var queueName in appSettingQueueNamesToValidate)
@@ -39,7 +41,7 @@ namespace Utilities.AppStartupValidation
 
 				if (!MessageQueue.Exists(queue))
 				{
-					throw new ArgumentException(string.Format("Queue {0} does not exist", queue));
+					throw new MissingMessageQueueException(string.Format("Queue {0} does not exist", queue));
 				}
 			}
 		}

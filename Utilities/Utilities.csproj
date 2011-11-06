@@ -55,6 +55,7 @@
     <Compile Include="DataRow\DataRowExtensions.cs" />
     <Compile Include="Enum\StringExtensions.cs" />
     <Compile Include="Arguments\ArgumentExtensions.cs" />
+    <Compile Include="Exceptions\MissingMessageQueueException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stopwatch\ExecutionTimeTracer.cs" />
     <Compile Include="WebHttpHandlers\BaseHandler.cs" />

@@ -2,7 +2,6 @@ using System;
 using NUnit.Framework;
 using Rhino.Mocks;
 using Utilities.AppStartupValidation;
-using Utilities.AppStartupValidators;
 
 namespace Tests.AppStartupValidation
 {

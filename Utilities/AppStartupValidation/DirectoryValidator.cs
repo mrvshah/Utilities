@@ -1,12 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
-using Utilities.AppStartupValidators;
 using Utilities.Arguments;
 
 namespace Utilities.AppStartupValidation
 {
 	/// <summary>
-	/// Directory validator
+	/// Validates by checking if directory exists
 	/// </summary>
 	public class DirectoryValidator : IValidator
 	{
@@ -19,6 +19,7 @@ namespace Utilities.AppStartupValidation
 		/// Initializes a new instance of the <see cref="DirectoryValidator"/> class
 		/// </summary>
 		/// <param name="physicalPathsToValidate">Physical path of directories to validate</param>
+		/// <exception cref="ArgumentNullException"/>
 		public DirectoryValidator(IEnumerable<string> physicalPathsToValidate)
 		{
 			physicalPathsToValidate.ThrowIfNull();
@@ -27,8 +28,9 @@ namespace Utilities.AppStartupValidation
 		}
 
 		/// <summary>
-		/// Enables validation by custom validator
+		/// Loops through each path and validate if it exists
 		/// </summary>
+		/// <exception cref="DirectoryNotFoundException"/>
 		public void Validate()
 		{
 			foreach (var path in physicalPathsToValidate)

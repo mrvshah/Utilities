@@ -40,8 +40,8 @@ namespace Tests.AppStartupValidation
 		private IEnumerable<string> GetAllValidPaths()
 		{
 			var currentDirecotry = Directory.GetCurrentDirectory();
-			var path1 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatoryTestPath1");
-			var path2 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatoryTestPath2");
+			var path1 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
+			var path2 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath2");
 
 			return new[] { path1, path2 };
 		}
@@ -49,7 +49,7 @@ namespace Tests.AppStartupValidation
 		private IEnumerable<string> GetPathsWithAtleastOneInValid()
 		{
 			var currentDirecotry = Directory.GetCurrentDirectory();
-			var validPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatoryTestPath1");
+			var validPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
 			var invalidPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\InvalidPath");
 
 			return new[] { validPath, invalidPath };

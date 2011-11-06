@@ -1,13 +1,13 @@
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
-using Utilities.AppStartupValidators;
 using Utilities.Arguments;
 
 namespace Utilities.AppStartupValidation
 {
 	///<summary>
-	/// Application settings validator
+	/// Validates by checking if application settings exist in config file
 	///</summary>
 	public class AppSettingsValidator : IValidator
 	{
@@ -20,6 +20,7 @@ namespace Utilities.AppStartupValidation
 		/// Initializes a new instance of type <see cref="AppSettingsValidator"/>
 		///</summary>
 		///<param name="keysToValidate">List of application setting keys to validate</param>
+		/// <exception cref="ArgumentNullException"/>
 		public AppSettingsValidator(IEnumerable<string> keysToValidate)
 		{
 			keysToValidate.ThrowIfNull();
@@ -28,8 +29,9 @@ namespace Utilities.AppStartupValidation
 		}
 
 		/// <summary>
-		/// Validate application settings
+		/// Loops through each required setting and checks if it exists in config file
 		/// </summary>
+		/// <exception cref="ConfigurationErrorsException"/>
 		public void Validate()
 		{
 			foreach (var key in keysToValidate)

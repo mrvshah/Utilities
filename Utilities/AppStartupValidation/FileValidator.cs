@@ -1,12 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
-using Utilities.AppStartupValidators;
 using Utilities.Arguments;
 
 namespace Utilities.AppStartupValidation
 {
 	///<summary>
-	/// File validator
+	/// Validates by checking if file exists
 	///</summary>
 	public class FileValidator : IValidator
 	{
@@ -19,6 +19,7 @@ namespace Utilities.AppStartupValidation
 		/// Initializes a new instance of the <see cref="FileValidator"/> class
 		/// </summary>
 		/// <param name="filePathsToValidate">Physical path of files to validate</param>
+		/// <exception cref="ArgumentNullException"/>
 		public FileValidator(IEnumerable<string> filePathsToValidate)
 		{
 			filePathsToValidate.ThrowIfNull();
@@ -27,8 +28,9 @@ namespace Utilities.AppStartupValidation
 		}
 
 		/// <summary>
-		/// Enables validation by custom validator
+		/// Loops through each path and check if it exists
 		/// </summary>
+		/// <exception cref="FileNotFoundException"/>
 		public void Validate()
 		{
 			foreach (var path in filePathsToValidate)

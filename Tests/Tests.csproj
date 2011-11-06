@@ -58,13 +58,16 @@
     <Compile Include="AppStartupValidation\DatabaseConnectionValidatorTests.cs" />
     <Compile Include="AppStartupValidation\DirectoryValidatorTests.cs" />
     <Compile Include="AppStartupValidation\FileValidatorTests.cs" />
+    <Compile Include="AppStartupValidation\MsmqValidatorTests.cs" />
     <Compile Include="Configuration\AppSettingsReaderTests.cs" />
     <Compile Include="DataRow\DataRowExtensionsTests.cs" />
     <Compile Include="Enum\CreditCardType.cs" />
     <Compile Include="Enum\StringExtensionsTests.cs" />
     <Compile Include="Arguments\ArgumentExtensionsTests.cs" />
+    <Compile Include="Exceptions\MissingMessageQueueExceptionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stopwatch\ExecutionTimeTracerTests.cs" />
+    <Compile Include="TestCategories.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
@@ -77,8 +80,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AppStartupValidation\DirectoryValidatoryTestPath1\" />
-    <Folder Include="AppStartupValidation\DirectoryValidatoryTestPath2\" />
+    <Folder Include="AppStartupValidation\DirectoryValidatorTestPath1\" />
+    <Folder Include="AppStartupValidation\DirectoryValidatorTestPath2\" />
     <Folder Include="WebHttpHandlers\" />
   </ItemGroup>
   <ItemGroup>

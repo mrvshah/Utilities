@@ -1,4 +1,4 @@
-namespace Utilities.AppStartupValidators
+namespace Utilities.AppStartupValidation
 {
 	///<summary>
 	/// Defines the contract for all validators
