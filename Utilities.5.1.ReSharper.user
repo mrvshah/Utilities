@@ -9,44 +9,46 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="99" fromTop="0" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="99" fromTop="7" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="156" fromTop="7" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="564" fromTop="11" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="518" fromTop="21" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="156" fromTop="4" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="87" fromTop="3" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="237" fromTop="12" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:DataRowExtensions.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="774" fromTop="28" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1307" fromTop="31" />
     </RecentFiles>
     <RecentEdits>
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="1264" fromTop="48" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="309" fromTop="13" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimer.cs" caret="113" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="99" fromTop="7" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="690" fromTop="15" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="631" fromTop="4" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="490" fromTop="17" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="486" fromTop="19" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="222" fromTop="10" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="568" fromTop="17" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="89" fromTop="6" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="146" fromTop="9" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="600" fromTop="18" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="630" fromTop="27" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="595" fromTop="26" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="595" fromTop="32" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="417" fromTop="8" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="175" fromTop="9" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="733" fromTop="23" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="890" fromTop="21" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="971" fromTop="27" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="818" fromTop="15" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="742" fromTop="8" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="175" fromTop="9" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="386" fromTop="13" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="310" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Exception/f:ArgumentExtensions.cs" caret="562" fromTop="10" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="340" fromTop="12" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Exception/f:ArgumentExtensionsTests.cs" caret="518" fromTop="21" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="810" fromTop="33" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="897" fromTop="37" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="254" fromTop="11" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="351" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="496" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="496" fromTop="24" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="410" fromTop="17" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="153" fromTop="4" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="535" fromTop="22" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="525" fromTop="20" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="149" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="42" fromTop="2" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="94" fromTop="4" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="614" fromTop="28" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="87" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="730" fromTop="25" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="423" fromTop="17" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="314" fromTop="17" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="422" fromTop="23" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="274" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="387" fromTop="12" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1425" fromTop="35" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="24" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -62,43 +64,43 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="Stopwatch`0" priority="0" />
-      <Item value="using" priority="0" />
-      <Item value="Test" priority="1" />
-      <Item value="public" priority="3" />
-      <Item value="void" priority="4" />
-      <Item value="var" priority="1" />
-      <Item value="Assert`0" priority="0" />
-      <Item value="Is`0" priority="0" />
+      <Item value="using" priority="3" />
+      <Item value="Test" priority="4" />
+      <Item value="public" priority="12" />
+      <Item value="void" priority="10" />
+      <Item value="var" priority="6" />
+      <Item value="Assert`0" priority="2" />
+      <Item value="Is`0" priority="2" />
       <Item value="CreditCardType`0" priority="1" />
-      <Item value="static" priority="3" />
+      <Item value="static" priority="5" />
       <Item value="this" priority="1" />
-      <Item value="string" priority="4" />
-      <Item value="return" priority="1" />
-      <Item value="if" priority="1" />
-      <Item value="System" priority="1" />
+      <Item value="string" priority="13" />
+      <Item value="return" priority="9" />
+      <Item value="if" priority="4" />
+      <Item value="System" priority="6" />
       <Item value="Enum`0" priority="1" />
       <Item value="enumAsString" priority="0" />
-      <Item value="true" priority="0" />
-      <Item value="T`0" priority="3" />
+      <Item value="true" priority="1" />
+      <Item value="T`0" priority="11" />
       <Item value="enumResult" priority="2" />
       <Item value="throw" priority="1" />
-      <Item value="new" priority="1" />
+      <Item value="new" priority="13" />
       <Item value="ArgumentException" priority="0" />
-      <Item value="null" priority="8" />
+      <Item value="null" priority="13" />
       <Item value="ExpectedException" priority="1" />
-      <Item value="typeof" priority="0" />
+      <Item value="typeof" priority="4" />
       <Item value="where" priority="0" />
-      <Item value="t" priority="0" />
+      <Item value="t" priority="1" />
       <Item value="ArgumentNullExceptionTests`0" priority="0" />
-      <Item value="private" priority="1" />
+      <Item value="private" priority="9" />
       <Item value="arg" priority="3" />
       <Item value="object" priority="3" />
       <Item value="ArgumentNullException" priority="0" />
       <Item value="message" priority="0" />
       <Item value="MethodThatChecksForNullArgument`0" priority="0" />
       <Item value="ExpectedMessage" priority="1" />
-      <Item value="int" priority="0" />
-      <Item value="bool" priority="0" />
+      <Item value="int" priority="6" />
+      <Item value="bool" priority="2" />
       <Item value="Array`0" priority="0" />
       <Item value="class" priority="0" />
       <Item value="Customer`0" priority="0" />
@@ -110,12 +112,66 @@
       <Item value="args" priority="2" />
       <Item value="ThrowIfNull`0" priority="0" />
       <Item value="s" priority="0" />
+      <Item value="Data" priority="2" />
+      <Item value="DataRow`0" priority="1" />
+      <Item value="DataRow" priority="1" />
+      <Item value="dt" priority="2" />
+      <Item value="DataColumn" priority="0" />
+      <Item value="dr" priority="7" />
+      <Item value="GetDataRow`0" priority="0" />
+      <Item value="columnName" priority="2" />
+      <Item value="KeyRestrictionBehavior`0" priority="0" />
+      <Item value="DataColumn`0" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="DbType`0" priority="0" />
+      <Item value="CanRetrieveValueFromDataRowForRequestedTypeWithDbNull`0" priority="0" />
+      <Item value="defalutValue" priority="0" />
+      <Item value="default" priority="1" />
+      <Item value="const" priority="2" />
+      <Item value="APP_CACHE_TIMEOUT" priority="0" />
+      <Item value="key" priority="0" />
+      <Item value="as" priority="1" />
+      <Item value="value" priority="2" />
+      <Item value="is" priority="0" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="APP_IS_VALID" priority="0" />
+      <Item value="messageToTrace" priority="1" />
+      <Item value="TimeSpan" priority="2" />
+      <Item value="MethodToExecute`0" priority="2" />
+      <Item value="cw" priority="4" />
+      <Item value="TimeSpan`0" priority="11" />
+      <Item value="Action`0" priority="1" />
+      <Item value="action" priority="1" />
+      <Item value="Stopwatch" priority="1" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="sw" priority="10" />
+      <Item value="Action" priority="0" />
+      <Item value="T2`0" priority="0" />
+      <Item value="arg1" priority="0" />
+      <Item value="arg2" priority="0" />
+      <Item value="ctor" priority="1" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="Func" priority="0" />
+      <Item value="func" priority="0" />
+      <Item value="ExecutionTimer`0" priority="0" />
+      <Item value="Func`0" priority="0" />
+      <Item value="timeSpan" priority="4" />
+      <Item value="ref" priority="1" />
+      <Item value="ExecutionTime" priority="0" />
+      <Item value="executionTime" priority="0" />
+      <Item value="ExecutionTimeWrapper" priority="0" />
+      <Item value="TimeSpanWrapper" priority="1" />
+      <Item value="ActionToGrabExecutionTime`0" priority="0" />
+      <Item value="actionToGrabExecutionTime" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="That`0" priority="0" />
+      <Item value="That`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Is">
-      <Item value="EqualTo`0" priority="0" />
+      <Item value="EqualTo`0" priority="2" />
+      <Item value="False" priority="0" />
+      <Item value="True" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Tests.Enum.CreditCardType">
       <Item value="Amex" priority="0" />
@@ -125,12 +181,49 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Format`0" priority="0" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Empty" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Object">
       <Item value="ThrowIfNull`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Utilities.Exception.ArgumentExtensions">
       <Item value="ThrowIfNull`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Columns" priority="1" />
+      <Item value="Rows" priority="0" />
+      <Item value="NewRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DBNull">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ChangeType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start`0" priority="1" />
+      <Item value="Stop`0" priority="1" />
+      <Item value="Reset`0" priority="1" />
+      <Item value="Elapsed" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action">
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Utilities.Stopwatch.TimeSpanWrapper">
+      <Item value="TimeSpan" priority="1" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

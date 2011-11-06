@@ -35,6 +35,8 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,14 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppStartupValidation\AppSettingsValidator.cs" />
+    <Compile Include="AppStartupValidation\AppStartupValidationExecutor.cs" />
+    <Compile Include="AppStartupValidation\DatabaseConnectionValidator.cs" />
+    <Compile Include="AppStartupValidation\DirectoryValidator.cs" />
+    <Compile Include="AppStartupValidation\FileValidator.cs" />
+    <Compile Include="AppStartupValidation\IValidator.cs" />
+    <Compile Include="AppStartupValidation\MsmqValidator.cs" />
     <Compile Include="Configuration\AppSettingsReader.cs" />
     <Compile Include="DataRow\DataRowExtensions.cs" />
     <Compile Include="Enum\StringExtensions.cs" />
     <Compile Include="Arguments\ArgumentExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stopwatch\ExecutionTimeTracer.cs" />
+    <Compile Include="WebHttpHandlers\BaseHandler.cs" />
+    <Compile Include="WebHttpHandlers\Minifiers\Css\CssMinifier.cs" />
+    <Compile Include="WebHttpHandlers\Minifiers\JavaScript\JavaScriptMinifier.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -40,7 +40,11 @@
     <Reference Include="pnunit.framework, Version=1.0.4109.34242, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.2.5.10.11092\lib\pnunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,6 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppStartupValidation\AppSettingsValidatorTests.cs" />
+    <Compile Include="AppStartupValidation\AppStartupValidationExecutorTests.cs" />
+    <Compile Include="AppStartupValidation\DatabaseConnectionValidatorTests.cs" />
+    <Compile Include="AppStartupValidation\DirectoryValidatorTests.cs" />
+    <Compile Include="AppStartupValidation\FileValidatorTests.cs" />
     <Compile Include="Configuration\AppSettingsReaderTests.cs" />
     <Compile Include="DataRow\DataRowExtensionsTests.cs" />
     <Compile Include="Enum\CreditCardType.cs" />
@@ -66,6 +75,19 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppStartupValidation\DirectoryValidatoryTestPath1\" />
+    <Folder Include="AppStartupValidation\DirectoryValidatoryTestPath2\" />
+    <Folder Include="WebHttpHandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppStartupValidation\FileValidatorData\File2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppStartupValidation\FileValidatorData\File1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
