@@ -40,8 +40,19 @@ namespace Tests.AppStartupValidation
 		private IEnumerable<string> GetAllValidPaths()
 		{
 			var currentDirecotry = Directory.GetCurrentDirectory();
-			var path1 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
-			var path2 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath2");
+			string path1 = null, path2 = null;
+
+#if DEBUG
+			path1 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
+#else
+			path1 = currentDirecotry.Replace(@"bin\Release", @"AppStartupValidation\DirectoryValidatorTestPath1");
+#endif
+
+#if DEBUG
+			path2 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath2");
+#else
+			path2 = currentDirecotry.Replace(@"bin\Release", @"AppStartupValidation\DirectoryValidatorTestPath2");
+#endif
 
 			return new[] { path1, path2 };
 		}
@@ -49,8 +60,19 @@ namespace Tests.AppStartupValidation
 		private IEnumerable<string> GetPathsWithAtleastOneInValid()
 		{
 			var currentDirecotry = Directory.GetCurrentDirectory();
-			var validPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
-			var invalidPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\InvalidPath");
+			string validPath = null, invalidPath = null;
+
+#if DEBUG
+			validPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
+#else
+			validPath = currentDirecotry.Replace(@"bin\Release", @"AppStartupValidation\DirectoryValidatorTestPath1");
+#endif
+
+#if DEBUG
+			invalidPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\InvalidPath");
+#else
+			invalidPath = currentDirecotry.Replace(@"bin\Release", @"AppStartupValidation\InvalidPath");
+#endif
 
 			return new[] { validPath, invalidPath };
 		}

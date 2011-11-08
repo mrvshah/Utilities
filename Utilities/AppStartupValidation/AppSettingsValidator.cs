@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using Utilities.Arguments;
 
@@ -34,6 +35,8 @@ namespace Utilities.AppStartupValidation
 		/// <exception cref="ConfigurationErrorsException"/>
 		public void Validate()
 		{
+			Trace.WriteLine("Starting AppSettings validation");
+
 			foreach (var key in keysToValidate)
 			{
 				if (!ConfigurationManager.AppSettings.AllKeys.Contains(key))
@@ -41,6 +44,8 @@ namespace Utilities.AppStartupValidation
 					throw new ConfigurationErrorsException(string.Format("Key {0} is missing", key));
 				}
 			}
+
+			Trace.WriteLine("AppSettings validation complete");
 		}
 	}
 }

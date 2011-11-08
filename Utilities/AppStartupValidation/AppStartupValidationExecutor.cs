@@ -7,6 +7,13 @@ namespace Utilities.AppStartupValidation
 	/// <summary>
 	/// Class to validate all validators
 	/// </summary>
+	/// <example>
+	///     <code lang="cs" title="The following code example demonstrates the usage of AppStartupValidationExecutor">
+	///         <code 
+	///             source="..\..\UtilitiesSnippets\AppStartupValidation\Program.cs" 
+	///         />
+	///     </code>
+	/// </example>
 	public static class AppStartupValidationExecutor
 	{
 		/// <summary>

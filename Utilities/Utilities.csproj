@@ -32,6 +32,9 @@
     <DocumentationFile>bin\Release\Utilities.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EcmaScript.NET.modified">
+      <HintPath>..\packages\YUICompressor.NET.1.6.0.2\lib\net35\EcmaScript.NET.modified.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -42,6 +45,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>..\packages\YUICompressor.NET.1.6.0.2\lib\net35\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppStartupValidation\AppSettingsValidator.cs" />
@@ -56,11 +62,19 @@
     <Compile Include="Enum\StringExtensions.cs" />
     <Compile Include="Arguments\ArgumentExtensions.cs" />
     <Compile Include="Exceptions\MissingMessageQueueException.cs" />
+    <Compile Include="WebCache\CacheReader.cs" />
+    <Compile Include="WebHttpHandlers\CssCompressor.cs" />
+    <Compile Include="WebHttpHandlers\ICompressor.cs" />
+    <Compile Include="WebHttpHandlers\JavaScriptCompressor.cs" />
+    <Compile Include="WebHttpRequest\HttpRequestExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stopwatch\ExecutionTimeTracer.cs" />
-    <Compile Include="WebHttpHandlers\BaseHandler.cs" />
-    <Compile Include="WebHttpHandlers\Minifiers\Css\CssMinifier.cs" />
-    <Compile Include="WebHttpHandlers\Minifiers\JavaScript\JavaScriptMinifier.cs" />
+    <Compile Include="WebHttpHandlers\BaseHttpHandler.cs" />
+    <Compile Include="WebHttpHandlers\CssMinifier.cs" />
+    <Compile Include="WebHttpHandlers\JavaScriptMinifier.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

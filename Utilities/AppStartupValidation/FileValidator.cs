@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using Utilities.Arguments;
 
@@ -33,6 +34,8 @@ namespace Utilities.AppStartupValidation
 		/// <exception cref="FileNotFoundException"/>
 		public void Validate()
 		{
+			Trace.WriteLine("Starting FileValidator validation");
+
 			foreach (var path in filePathsToValidate)
 			{
 				if (!File.Exists(path))
@@ -40,6 +43,8 @@ namespace Utilities.AppStartupValidation
 					throw new FileNotFoundException(path);
 				}
 			}
+
+			Trace.WriteLine("FileValidator validation complete");
 		}
 	}
 }

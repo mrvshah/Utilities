@@ -9,67 +9,66 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="99" fromTop="7" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Configuration/f:AppSettingsReaderTests.cs" caret="87" fromTop="3" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="237" fromTop="12" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Arguments/f:ArgumentExtensionsTests.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:MsmqValidatorTests.cs" caret="48" fromTop="1" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:DataRowExtensions.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:ExecutionTimeTracer.cs" caret="774" fromTop="28" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/d:Minifiers/d:Css/f:CssMinifier.cs" caret="85" fromTop="3" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/d:Minifiers/d:JavaScript/f:JavaScriptMinifier.cs" caret="92" fromTop="3" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHandler.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="511" fromTop="11" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:IValidator.cs" caret="216" fromTop="8" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:AppStartupValidationExecutorTests.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="270" fromTop="9" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="239" fromTop="4" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DatabaseConnectionValidatorTests.cs" caret="721" fromTop="26" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DatabaseConnectionValidator.cs" caret="257" fromTop="9" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="973" fromTop="17" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="758" fromTop="9" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="1732" fromTop="33" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/d:FileValidatorData/f:File1.txt" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="299" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:AppSettingsValidatorTests.cs" caret="742" fromTop="8" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="945" fromTop="34" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="385" fromTop="15" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="1192" fromTop="41" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:IValidator.cs" caret="216" fromTop="8" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="356" fromTop="13" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="2176" fromTop="20" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DatabaseConnectionValidatorTests.cs" caret="890" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DatabaseConnectionValidator.cs" caret="2037" fromTop="26" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1478" fromTop="9" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:CssCompressor.cs" caret="35" fromTop="2" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:CssMinifier.cs" caret="35" fromTop="2" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:ICompressor.cs" caret="35" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:Minifier.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptMinifier.cs" caret="166" fromTop="5" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptCompressor.cs" caret="35" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebHttpRequest/f:HttpRequestExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:MockedObjects/f:MockedHttpRequest.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:MockedObjects/f:MockedHttpContext.cs" caret="272" fromTop="10" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="516" fromTop="12" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="747" fromTop="28" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpRequest/f:HttpRequestExtensions.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="569" fromTop="14" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="48" fromTop="1" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="703" fromTop="20" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="420" fromTop="15" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="334" fromTop="7" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="553" fromTop="14" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="1082" fromTop="25" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="747" fromTop="16" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="915" fromTop="14" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="1727" fromTop="22" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="1675" fromTop="23" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="201" fromTop="6" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="396" fromTop="8" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="735" fromTop="10" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="1629" fromTop="33" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="187" fromTop="8" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="368" fromTop="16" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="588" fromTop="14" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="695" fromTop="20" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="1550" fromTop="20" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="1188" fromTop="11" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="1010" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:FileValidatorTests.cs" caret="767" fromTop="15" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="255" fromTop="6" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="443" fromTop="11" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="789" fromTop="19" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="1252" fromTop="24" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="1192" fromTop="26" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:MockedObjects/f:MockedHttpRequest.cs" caret="160" fromTop="8" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebHttpRequest/f:HttpRequestExtensionsTests.cs" caret="283" fromTop="13" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebHttpRequest/f:HttpRequestExtensionsTests.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="162" fromTop="17" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="208" fromTop="15" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:MockedObjects/f:MockedHttpContext.cs" caret="228" fromTop="9" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="208" fromTop="17" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="525" fromTop="26" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="239" fromTop="15" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="105" fromTop="5" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="470" fromTop="16" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="437" fromTop="15" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="391" fromTop="16" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="44" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="42" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="4134" fromTop="59" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="21" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="11" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="13" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="28" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3807" fromTop="16" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="855" fromTop="28" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="1137" fromTop="28" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="850" fromTop="30" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="747" fromTop="28" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="899" fromTop="30" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3860" fromTop="30" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="569" fromTop="14" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -85,47 +84,47 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="Stopwatch`0" priority="0" />
-      <Item value="using" priority="4" />
-      <Item value="Test" priority="9" />
-      <Item value="public" priority="17" />
-      <Item value="void" priority="16" />
-      <Item value="var" priority="14" />
-      <Item value="Assert`0" priority="3" />
-      <Item value="Is`0" priority="2" />
+      <Item value="using" priority="7" />
+      <Item value="Test" priority="12" />
+      <Item value="public" priority="29" />
+      <Item value="void" priority="22" />
+      <Item value="var" priority="30" />
+      <Item value="Assert`0" priority="4" />
+      <Item value="Is`0" priority="4" />
       <Item value="CreditCardType`0" priority="1" />
-      <Item value="static" priority="7" />
+      <Item value="static" priority="9" />
       <Item value="this" priority="1" />
-      <Item value="string" priority="31" />
-      <Item value="return" priority="12" />
-      <Item value="if" priority="8" />
-      <Item value="System" priority="7" />
+      <Item value="string" priority="50" />
+      <Item value="return" priority="18" />
+      <Item value="if" priority="11" />
+      <Item value="System" priority="11" />
       <Item value="Enum`0" priority="1" />
       <Item value="enumAsString" priority="0" />
-      <Item value="true" priority="2" />
+      <Item value="true" priority="3" />
       <Item value="T`0" priority="11" />
       <Item value="enumResult" priority="2" />
       <Item value="throw" priority="6" />
-      <Item value="new" priority="26" />
+      <Item value="new" priority="48" />
       <Item value="ArgumentException" priority="1" />
-      <Item value="null" priority="16" />
+      <Item value="null" priority="25" />
       <Item value="ExpectedException" priority="4" />
       <Item value="typeof" priority="7" />
       <Item value="where" priority="0" />
-      <Item value="t" priority="1" />
+      <Item value="t" priority="4" />
       <Item value="ArgumentNullExceptionTests`0" priority="0" />
-      <Item value="private" priority="13" />
+      <Item value="private" priority="19" />
       <Item value="arg" priority="3" />
-      <Item value="object" priority="3" />
+      <Item value="object" priority="5" />
       <Item value="ArgumentNullException" priority="0" />
-      <Item value="message" priority="0" />
+      <Item value="message" priority="1" />
       <Item value="MethodThatChecksForNullArgument`0" priority="0" />
       <Item value="ExpectedMessage" priority="1" />
-      <Item value="int" priority="6" />
-      <Item value="bool" priority="2" />
+      <Item value="int" priority="7" />
+      <Item value="bool" priority="3" />
       <Item value="Array`0" priority="0" />
-      <Item value="class" priority="0" />
-      <Item value="Customer`0" priority="0" />
-      <Item value="customer" priority="1" />
+      <Item value="class" priority="1" />
+      <Item value="Customer`0" priority="2" />
+      <Item value="customer" priority="4" />
       <Item value="foreach" priority="7" />
       <Item value="try" priority="0" />
       <Item value="ArgumentExtensionsTests`0" priority="0" />
@@ -143,14 +142,14 @@
       <Item value="columnName" priority="2" />
       <Item value="KeyRestrictionBehavior`0" priority="0" />
       <Item value="DataColumn`0" priority="0" />
-      <Item value="false" priority="0" />
+      <Item value="false" priority="1" />
       <Item value="DbType`0" priority="0" />
       <Item value="CanRetrieveValueFromDataRowForRequestedTypeWithDbNull`0" priority="0" />
       <Item value="defalutValue" priority="0" />
       <Item value="default" priority="1" />
-      <Item value="const" priority="2" />
+      <Item value="const" priority="4" />
       <Item value="APP_CACHE_TIMEOUT" priority="0" />
-      <Item value="key" priority="0" />
+      <Item value="key" priority="3" />
       <Item value="as" priority="1" />
       <Item value="value" priority="2" />
       <Item value="is" priority="0" />
@@ -158,10 +157,10 @@
       <Item value="Text" priority="0" />
       <Item value="APP_IS_VALID" priority="0" />
       <Item value="messageToTrace" priority="1" />
-      <Item value="TimeSpan" priority="2" />
+      <Item value="TimeSpan" priority="5" />
       <Item value="MethodToExecute`0" priority="2" />
       <Item value="cw" priority="4" />
-      <Item value="TimeSpan`0" priority="11" />
+      <Item value="TimeSpan`0" priority="12" />
       <Item value="Action`0" priority="1" />
       <Item value="action" priority="1" />
       <Item value="Stopwatch" priority="1" />
@@ -171,7 +170,7 @@
       <Item value="T2`0" priority="0" />
       <Item value="arg1" priority="0" />
       <Item value="arg2" priority="0" />
-      <Item value="ctor" priority="7" />
+      <Item value="ctor" priority="8" />
       <Item value="IDisposable`0" priority="0" />
       <Item value="Func" priority="0" />
       <Item value="func" priority="0" />
@@ -198,8 +197,8 @@
       <Item value="dcv" priority="1" />
       <Item value="AppStartupValidation" priority="0" />
       <Item value="AppSettingsValidatorTests`0" priority="0" />
-      <Item value="SetUICulture" priority="0" />
-      <Item value="sut" priority="0" />
+      <Item value="SetUICulture" priority="1" />
+      <Item value="sut" priority="1" />
       <Item value="AppSettingsValidator" priority="0" />
       <Item value="appSettingsToValidate" priority="2" />
       <Item value="LinkedList" priority="0" />
@@ -218,13 +217,13 @@
       <Item value="connectionStringName" priority="1" />
       <Item value="connestionString" priority="1" />
       <Item value="ConfigurationErrorsException" priority="0" />
-      <Item value="conn" priority="1" />
+      <Item value="conn" priority="3" />
       <Item value="connectionString" priority="0" />
       <Item value="directoriesToValidate" priority="0" />
       <Item value="Directory`0" priority="1" />
       <Item value="path1" priority="0" />
       <Item value="currentDirecotry" priority="1" />
-      <Item value="path2" priority="0" />
+      <Item value="path2" priority="1" />
       <Item value="path" priority="3" />
       <Item value="DirectoryNotFoundException" priority="0" />
       <Item value="DirectoryNotFoundException`0" priority="0" />
@@ -236,13 +235,84 @@
       <Item value="queue" priority="1" />
       <Item value="MessageQueueException" priority="0" />
       <Item value="MessageQueueException`0" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="MissingMessageQueueExceptionTests`0" priority="0" />
+      <Item value="Tests" priority="1" />
+      <Item value="MsmqValidator`0" priority="0" />
+      <Item value="Ignore" priority="0" />
+      <Item value="Category" priority="0" />
+      <Item value="TestCategories`0" priority="0" />
+      <Item value="Utilities" priority="0" />
+      <Item value="assembly" priority="0" />
+      <Item value="Task" priority="0" />
+      <Item value="HttpContext`0" priority="7" />
+      <Item value="currentContext" priority="1" />
+      <Item value="context" priority="10" />
+      <Item value="version" priority="2" />
+      <Item value="isCompressed" priority="3" />
+      <Item value="Stream`0" priority="0" />
+      <Item value="memoryStream" priority="2" />
+      <Item value="CompressionMode`0" priority="0" />
+      <Item value="File`0" priority="0" />
+      <Item value="Minifier`0" priority="0" />
+      <Item value="minifier" priority="0" />
+      <Item value="script" priority="0" />
+      <Item value="byte" priority="1" />
+      <Item value="HttpCacheVaryByContentEncodings`0" priority="1" />
+      <Item value="minifiedScript" priority="0" />
+      <Item value="writer" priority="0" />
+      <Item value="bts" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="response" priority="1" />
+      <Item value="protected" priority="3" />
+      <Item value="abstract" priority="1" />
+      <Item value="override" priority="0" />
+      <Item value="ContentType" priority="1" />
+      <Item value="IMinifier`0" priority="0" />
+      <Item value="Yahoo" priority="1" />
+      <Item value="Yui" priority="1" />
+      <Item value="Compressor" priority="4" />
+      <Item value="CssCompressor`0" priority="1" />
+      <Item value="textToCompress" priority="1" />
+      <Item value="JavaScriptCompressor`0" priority="1" />
+      <Item value="Minifier" priority="0" />
+      <Item value="CacheManagerTests`0" priority="0" />
+      <Item value="CacheManager" priority="0" />
+      <Item value="CacheManager`0" priority="1" />
+      <Item value="Web" priority="2" />
+      <Item value="Caching" priority="1" />
+      <Item value="Cache`0" priority="3" />
+      <Item value="Cache" priority="1" />
+      <Item value="c" priority="1" />
+      <Item value="data" priority="0" />
+      <Item value="TableNotEnabledForNotificationException`0" priority="0" />
+      <Item value="cachekey" priority="1" />
+      <Item value="WebCache" priority="0" />
+      <Item value="MockedObjects" priority="1" />
+      <Item value="MockedHttpRequest`0" priority="2" />
+      <Item value="httpContext" priority="8" />
+      <Item value="HttpContext" priority="0" />
+      <Item value="swr" priority="0" />
+      <Item value="TestContext`0" priority="0" />
+      <Item value="MockedHttpContext`0" priority="2" />
+      <Item value="CACHE_KEY" priority="2" />
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+      <Item value="FieldAccessException`0" priority="0" />
+      <Item value="file" priority="0" />
+      <Item value="cacheKey" priority="2" />
+      <Item value="CacheDependency" priority="0" />
+      <Item value="CacheDuration" priority="1" />
+      <Item value="DateTime" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="CacheReader`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="That`0" priority="3" />
+      <Item value="That`0" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Is">
-      <Item value="EqualTo`0" priority="2" />
-      <Item value="False" priority="0" />
+      <Item value="EqualTo`0" priority="3" />
+      <Item value="False" priority="1" />
       <Item value="True" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Tests.Enum.CreditCardType">
@@ -252,9 +322,10 @@
       <Item value="TryParse`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Format`0" priority="4" />
+      <Item value="Format`0" priority="6" />
       <Item value="IsNullOrEmpty`0" priority="2" />
-      <Item value="Empty" priority="0" />
+      <Item value="Empty" priority="4" />
+      <Item value="Join`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Object">
       <Item value="ThrowIfNull`0" priority="1" />
@@ -311,7 +382,7 @@
       <Item value="ValidateAll`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Utilities.Configuration.AppSettingsReader">
-      <Item value="Get`1" priority="1" />
+      <Item value="Get`1" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
       <Item value="HasKeys`0" priority="0" />
@@ -327,7 +398,7 @@
       <Item value="ConnectionString" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
-      <Item value="Open`0" priority="1" />
+      <Item value="Open`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.Directory">
       <Item value="GetCurrentDirectory`0" priority="1" />
@@ -339,9 +410,95 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.File">
       <Item value="Exists`0" priority="0" />
+      <Item value="ReadAllLines`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Messaging.MessageQueue">
       <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Tests.TestCategories">
+      <Item value="INTEGRATION" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Trace">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Tasks.Task">
+      <Item value="Start`0" priority="2" />
+      <Item value="Wait`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Request" priority="5" />
+      <Item value="Server" priority="0" />
+      <Item value="Cache" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Compression.CompressionMode">
+      <Item value="Compress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="FilePath" priority="3" />
+      <Item value="PathInfo" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="Headers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Minifier">
+      <Item value="Minify`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Yahoo.Yui.Compressor.CssCompressor">
+      <Item value="Compress`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Yahoo.Yui.Compressor.JavaScriptCompressor">
+      <Item value="Compress`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Utilities.WebHttpHandlers.WIP.ICompressor">
+      <Item value="Compress`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Caching.Cache">
+      <Item value="Insert`0" priority="3" />
+      <Item value="Get`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.WebCache.CacheManager">
+      <Item value="Get`1" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.Cache">
+      <Item value="NoSlidingExpiration" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Tests.MockedObjects.MockedHttpRequest">
+      <Item value="GetHttpRequest`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Tests.MockedObjects.MockedHttpContext">
+      <Item value="GetHttpContext`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddDays`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetFileName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.WebCache.CacheReader">
+      <Item value="Read`1" priority="1" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

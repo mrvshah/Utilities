@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Messaging;
 using Utilities.Arguments;
 using Utilities.Configuration;
@@ -35,6 +36,8 @@ namespace Utilities.AppStartupValidation
 		/// <exception cref="ArgumentException"/>
 		public void Validate()
 		{
+			Trace.WriteLine("Starting MsmqValidator validation");
+
 			foreach (var queueName in appSettingQueueNamesToValidate)
 			{
 				var queue = AppSettingsReader.Get<string>(queueName);
@@ -44,6 +47,8 @@ namespace Utilities.AppStartupValidation
 					throw new MissingMessageQueueException(string.Format("Queue {0} does not exist", queue));
 				}
 			}
+
+			Trace.WriteLine("MsmqValidator validation complete");
 		}
 	}
 }

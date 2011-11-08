@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using Utilities.Arguments;
 
@@ -33,6 +34,8 @@ namespace Utilities.AppStartupValidation
 		/// <exception cref="DirectoryNotFoundException"/>
 		public void Validate()
 		{
+			Trace.WriteLine("Starting DirectoryValidator validation");
+
 			foreach (var path in physicalPathsToValidate)
 			{
 				if (!Directory.Exists(path))
@@ -40,6 +43,8 @@ namespace Utilities.AppStartupValidation
 					throw new DirectoryNotFoundException(path);
 				}
 			}
+
+			Trace.WriteLine("DirectoryValidator validation complete");
 		}
 	}
 }

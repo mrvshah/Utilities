@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Diagnostics;
+using System.Threading.Tasks;
 using Utilities.Arguments;
+using Utilities.Stopwatch;
 
 namespace Utilities.AppStartupValidation
 {
@@ -35,6 +38,8 @@ namespace Utilities.AppStartupValidation
 		/// <exception cref="SqlException"/>
 		public void Validate()
 		{
+			Trace.WriteLine("Starting DatabaseConnection validation");
+
 			foreach (var connectionStringName in connectionStringNames)
 			{
 				var connectionStringSettings = ConfigurationManager.ConnectionStrings[connectionStringName];
@@ -46,9 +51,18 @@ namespace Utilities.AppStartupValidation
 
 				using (var conn = new SqlConnection(connectionStringSettings.ConnectionString))
 				{
-					conn.Open();
+					using (new ExecutionTimeTracer())
+					{
+						//var t = new Task(conn.Open);
+						//t.Start();
+						//t.Wait(new TimeSpan(0, 0, 0, 5));
+
+						conn.Open();
+					}
 				}
 			}
+
+			Trace.WriteLine("DatabaseConnection validation complete");
 		}
 	}
 }

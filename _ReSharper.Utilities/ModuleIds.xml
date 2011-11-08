@@ -2,6 +2,6 @@
   <Module PersistentId="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3" ModuleId="Utilities" />
   <Module PersistentId="F3EA559A-48D1-43CD-B3B3-EB18085AE448" ModuleId="Tests" />
   <Module PersistentId="d:Miscellaneous Files" ModuleId="mscorlib" />
+  <Module PersistentId="Yahoo.Yui.Compressor, Version=1.6.0.2, Culture=neutral, PublicKeyToken=f8b4b81ec75097e2" ModuleId="Yahoo.Yui.Compressor" />
   <Module PersistentId="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web" />
-  <Module PersistentId="System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Messaging" />
 </Modules>
