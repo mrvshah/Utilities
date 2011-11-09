@@ -9,23 +9,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:MsmqValidatorTests.cs" caret="48" fromTop="1" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:DataRowExtensions.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:FileValidator.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MsmqValidator.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:IValidator.cs" caret="216" fromTop="8" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DirectoryValidatorTests.cs" caret="2176" fromTop="20" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DatabaseConnectionValidator.cs" caret="2037" fromTop="26" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebHttpRequest/f:HttpRequestExtensionsTests.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:MockedObjects/f:MockedHttpRequest.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:MockedObjects/f:MockedHttpContext.cs" caret="272" fromTop="10" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:App.config" caret="516" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:CacheReader.cs" caret="0" fromTop="0" />
-      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="747" fromTop="28" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpRequest/f:HttpRequestExtensions.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:ICompressor.cs" caret="364" fromTop="12" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:CssCompressor.cs" caret="343" fromTop="12" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptCompressor.cs" caret="427" fromTop="12" />
@@ -33,42 +16,61 @@
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptMinifier.cs" caret="378" fromTop="16" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:DatabaseConnectionValidatorTests.cs" caret="245" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="431" fromTop="12" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/f:packages.config" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1480" fromTop="18" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="771" fromTop="23" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:ArgumentExtensions.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="487" fromTop="16" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:TestCategories.cs" caret="106" fromTop="5" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:StringExtensions.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="353" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:NamespaceDoc.cs" caret="534" fromTop="12" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:DataRow/f:DataRowExtensionsTests.cs" caret="586" fromTop="26" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:StringExtensionsTests.cs" caret="253" fromTop="12" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Enum/f:CreditCardType.cs" caret="20" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:Stopwatch/f:ExecutionTimeTracerTests.cs" caret="422" fromTop="23" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:NamespaceDoc.cs" caret="269" fromTop="5" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:NamespaceDoc.cs" caret="0" fromTop="0" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebHttpRequest/f:HttpRequestExtensionsTests.cs" caret="356" fromTop="13" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:WebCache/f:CacheReaderTests.cs" caret="532" fromTop="20" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:NamespaceDoc.cs" caret="355" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpRequest/f:NamespaceDoc.cs" caret="552" fromTop="14" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:NamespaceDoc.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:NamespaceDoc.cs" caret="344" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:NamespaceDoc.cs" caret="373" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:NamespaceDoc.cs" caret="363" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1360" fromTop="21" />
     </RecentFiles>
     <RecentEdits>
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="4565" fromTop="30" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="1217" fromTop="21" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="1546" fromTop="10" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="3012" fromTop="30" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="4142" fromTop="42" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:CssMinifier.cs" caret="195" fromTop="8" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="1119" fromTop="24" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:CssMinifier.cs" caret="332" fromTop="16" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:ICompressor.cs" caret="92" fromTop="3" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:ICompressor.cs" caret="273" fromTop="10" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:CssCompressor.cs" caret="389" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptCompressor.cs" caret="102" fromTop="3" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptCompressor.cs" caret="381" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptCompressor.cs" caret="427" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptMinifier.cs" caret="83" fromTop="3" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptMinifier.cs" caret="216" fromTop="8" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:JavaScriptMinifier.cs" caret="378" fromTop="16" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="748" fromTop="23" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="305" fromTop="16" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="305" fromTop="16" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="305" fromTop="12" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="0" fromTop="0" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="485" fromTop="16" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="382" fromTop="12" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="197" fromTop="16" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="827" fromTop="17" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="827" fromTop="17" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="827" fromTop="22" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="808" fromTop="25" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="771" fromTop="23" />
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1480" fromTop="18" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="197" fromTop="9" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="487" fromTop="16" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="80" fromTop="4" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppStartupValidationExecutor.cs" caret="107" fromTop="4" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:NamespaceDoc.cs" caret="537" fromTop="13" />
+      <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/f:TestCategories.cs" caret="106" fromTop="5" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:NamespaceDoc.cs" caret="138" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:NamespaceDoc.cs" caret="507" fromTop="17" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:NamespaceDoc.cs" caret="122" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:NamespaceDoc.cs" caret="151" fromTop="4" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpHandlers/f:NamespaceDoc.cs" caret="623" fromTop="15" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:NamespaceDoc.cs" caret="124" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:NamespaceDoc.cs" caret="0" fromTop="0" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:NamespaceDoc.cs" caret="113" fromTop="3" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Enum/f:NamespaceDoc.cs" caret="339" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:NamespaceDoc.cs" caret="372" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Stopwatch/f:NamespaceDoc.cs" caret="269" fromTop="5" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebCache/f:NamespaceDoc.cs" caret="356" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:WebHttpRequest/f:NamespaceDoc.cs" caret="402" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Arguments/f:NamespaceDoc.cs" caret="363" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Configuration/f:NamespaceDoc.cs" caret="373" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:DataRow/f:NamespaceDoc.cs" caret="344" fromTop="7" />
+      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1480" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -104,7 +106,7 @@
       <Item value="T`0" priority="11" />
       <Item value="enumResult" priority="2" />
       <Item value="throw" priority="6" />
-      <Item value="new" priority="49" />
+      <Item value="new" priority="50" />
       <Item value="ArgumentException" priority="1" />
       <Item value="null" priority="25" />
       <Item value="ExpectedException" priority="4" />
@@ -133,7 +135,7 @@
       <Item value="ThrowIfNull`0" priority="0" />
       <Item value="s" priority="0" />
       <Item value="Data" priority="2" />
-      <Item value="DataRow`0" priority="1" />
+      <Item value="DataRow`0" priority="2" />
       <Item value="DataRow" priority="1" />
       <Item value="dt" priority="2" />
       <Item value="DataColumn" priority="0" />
@@ -307,6 +309,8 @@
       <Item value="DateTime`0" priority="0" />
       <Item value="CacheReader`0" priority="0" />
       <Item value="AppStartupValidationExecutor`0" priority="0" />
+      <Item value="DataRowExtensions" priority="0" />
+      <Item value="DataRowExtensions`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="That`0" priority="5" />
