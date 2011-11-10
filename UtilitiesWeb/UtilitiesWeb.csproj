@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EA0D7A9A-CBE7-4752-AB21-F72E557A71D3}</ProjectGuid>
+    <ProjectGuid>{F27D1C67-B6B9-4498-B9F3-359CFB88EF5E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Utilities</RootNamespace>
-    <AssemblyName>Utilities</AssemblyName>
+    <AssemblyName>UtilitiesWeb</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -29,45 +29,48 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Utilities.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\UtilitiesWeb.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EcmaScript.NET.modified">
+      <HintPath>..\packages\YUICompressor.NET.1.6.0.2\lib\net35\EcmaScript.NET.modified.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Messaging" />
-    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>..\packages\YUICompressor.NET.1.6.0.2\lib\net35\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppStartupValidation\AppSettingsValidator.cs" />
-    <Compile Include="AppStartupValidation\AppStartupValidationExecutor.cs" />
-    <Compile Include="AppStartupValidation\DatabaseConnectionValidator.cs" />
-    <Compile Include="AppStartupValidation\DirectoryValidator.cs" />
-    <Compile Include="AppStartupValidation\FileValidator.cs" />
-    <Compile Include="AppStartupValidation\IValidator.cs" />
-    <Compile Include="AppStartupValidation\MsmqValidator.cs" />
-    <Compile Include="AppStartupValidation\NamespaceDoc.cs" />
-    <Compile Include="Arguments\NamespaceDoc.cs" />
-    <Compile Include="DataRow\DataRowExtensions.cs" />
-    <Compile Include="DataRow\NamespaceDoc.cs" />
-    <Compile Include="Enum\NamespaceDoc.cs" />
-    <Compile Include="Enum\StringExtensions.cs" />
-    <Compile Include="Arguments\ArgumentExtensions.cs" />
-    <Compile Include="Exceptions\MissingMessageQueueException.cs" />
-    <Compile Include="Stopwatch\NamespaceDoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stopwatch\ExecutionTimeTracer.cs" />
+    <Compile Include="WebCache\CacheReader.cs" />
+    <Compile Include="WebCache\NamespaceDoc.cs" />
+    <Compile Include="WebHttpHandlers\BaseHttpHandler.cs" />
+    <Compile Include="WebHttpHandlers\CssCompressor.cs" />
+    <Compile Include="WebHttpHandlers\CssMinifier.cs" />
+    <Compile Include="WebHttpHandlers\ICompressor.cs" />
+    <Compile Include="WebHttpHandlers\JavaScriptCompressor.cs" />
+    <Compile Include="WebHttpHandlers\JavaScriptMinifier.cs" />
+    <Compile Include="WebHttpHandlers\NamespaceDoc.cs" />
+    <Compile Include="WebHttpRequest\HttpRequestExtensions.cs" />
+    <Compile Include="WebHttpRequest\NamespaceDoc.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{B8DD5508-2A8C-48CA-8F85-A7F880F28DEA}</Project>
       <Name>Common</Name>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

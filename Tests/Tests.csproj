@@ -75,6 +75,14 @@
     <Compile Include="TestCategories.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{B8DD5508-2A8C-48CA-8F85-A7F880F28DEA}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilitiesWeb\UtilitiesWeb.csproj">
+      <Project>{F27D1C67-B6B9-4498-B9F3-359CFB88EF5E}</Project>
+      <Name>UtilitiesWeb</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{EA0D7A9A-CBE7-4752-AB21-F72E557A71D3}</Project>
       <Name>Utilities</Name>

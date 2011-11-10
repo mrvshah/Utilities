@@ -42,6 +42,11 @@ namespace Utilities.WebHttpHandlers
 			get { return true; }
 		}
 
+		private bool EnableMinification
+		{
+			get { return AppSettingsReader.Get<bool>("EnableMinification"); }
+		}
+
 		/// <summary>
 		/// Server and client side cache duration
 		/// </summary>
@@ -73,13 +78,17 @@ namespace Utilities.WebHttpHandlers
 					{
 						var script = File.ReadAllText(context.Server.MapPath(context.Request.FilePath));
 
-#if DEBUG
-						byte[] bts = Encoding.UTF8.GetBytes(script);
-#else
-						var compressedScript = Compressor.Compress(script);
+						byte[] bts;
+						if (!EnableMinification)
+						{
+							bts = Encoding.UTF8.GetBytes(script);
+						}
+						else
+						{
+							var compressedScript = Compressor.Compress(script);
 
-						byte[] bts = Encoding.UTF8.GetBytes(compressedScript);
-#endif
+							bts = Encoding.UTF8.GetBytes(compressedScript);
+						}
 
 						writer.Write(bts, 0, bts.Length);
 					}
@@ -133,9 +142,11 @@ namespace Utilities.WebHttpHandlers
 		/// <param name="currentContext">Current http context</param>
 		protected bool WriteFromCache(string cacheKey, bool isCompressed, string contentType, HttpContext currentContext)
 		{
-#if DEBUG
-			return false;
-#else
+			if (!EnableMinification)
+			{
+				return false;
+			}
+
 			byte[] responseBytes = CacheReader.Contains(cacheKey) ? CacheReader.Read<byte[]>(cacheKey) : null;
 
 			if (responseBytes == null || responseBytes.Length == 0)
@@ -145,7 +156,6 @@ namespace Utilities.WebHttpHandlers
 
 			WriteBytes(responseBytes, isCompressed, contentType, currentContext);
 			return true;
-#endif
 		}
 	}
 }
