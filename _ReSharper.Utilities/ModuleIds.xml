@@ -4,4 +4,5 @@
   <Module PersistentId="d:Miscellaneous Files" ModuleId="mscorlib" />
   <Module PersistentId="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E" ModuleId="UtilitiesDepedantOnSystemWeb" />
   <Module PersistentId="B8DD5508-2A8C-48CA-8F85-A7F880F28DEA" ModuleId="Common" />
+  <Module PersistentId="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" ModuleId="nunit.framework" />
 </Modules>

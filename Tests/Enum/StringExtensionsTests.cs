@@ -19,5 +19,31 @@ namespace Tests.Enum
 		{
 			"NonExistentEnumItem".ToEnumOfType<CreditCardType>();
 		}
+
+		[Test]
+		public void CanConvertDescriptionToEnum()
+		{
+			var description = "MasterCard credit card type.";
+
+			Assert.That(description.ToEnumOfType<CreditCardType>(true), Is.EqualTo(CreditCardType.MasterCard));
+		}
+
+		[Test]
+		[ExpectedException(typeof(ArgumentException))]
+		public void ArgumentExceptionIsThrownIfRequestedTypeIsNotEnum()
+		{
+			var description = "MasterCard credit card type.";
+
+			description.ToEnumOfType<StringExtensionsTests>(true);
+		}
+
+		[Test]
+		[ExpectedException(typeof(ArgumentException))]
+		public void ArgumentExceptionIsThrownIfEnumTypeIsNotFoundFromRequestedType()
+		{
+			var description = "Some credit card type.";
+
+			description.ToEnumOfType<StringExtensionsTests>(true);
+		}
 	}
 }

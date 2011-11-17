@@ -53,6 +53,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebCache\CacheReader.cs" />
     <Compile Include="WebCache\NamespaceDoc.cs" />
+    <Compile Include="WebControl\ControlExtensions.cs" />
+    <Compile Include="WebControl\NamespaceDoc.cs" />
     <Compile Include="WebHttpHandlers\BaseHttpHandler.cs" />
     <Compile Include="WebHttpHandlers\CssCompressor.cs" />
     <Compile Include="WebHttpHandlers\CssMinifier.cs" />
@@ -62,6 +64,8 @@
     <Compile Include="WebHttpHandlers\NamespaceDoc.cs" />
     <Compile Include="WebHttpRequest\HttpRequestExtensions.cs" />
     <Compile Include="WebHttpRequest\NamespaceDoc.cs" />
+    <Compile Include="WebViewState\NamespaceDoc.cs" />
+    <Compile Include="WebViewState\StateBagExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

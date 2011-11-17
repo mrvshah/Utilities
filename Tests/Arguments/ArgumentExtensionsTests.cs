@@ -8,23 +8,12 @@ namespace Tests.Arguments
 	public class ArgumentExtensionsTests
 	{
 		[Test]
-		[ExpectedException(typeof(ArgumentNullException), ExpectedMessage = null)]
+		[ExpectedException(typeof(ArgumentNullException), ExpectedMessage = "Value cannot be null.\r\nParameter name: s")]
 		public void CanThrowAnExceptionWhenArgumentIsNull()
 		{
 			string s = null;
 
-			s.ThrowIfNull();
-		}
-
-		[Test]
-		[ExpectedException(typeof(ArgumentNullException))]
-		public void CanThrowExceptionForEachNullArgument()
-		{
-			Customer customer = null;
-
-			var parameters = new object[] { 1, customer };
-
-			parameters.ThrowIfNull();
+			s.ThrowIfNull("s");
 		}
 	}
 

@@ -1,5 +1,4 @@
 using System;
-using System.Threading;
 using NUnit.Framework;
 using Utilities.Stopwatch;
 
@@ -19,7 +18,7 @@ namespace Tests.Stopwatch
 
 		private void MethodToExecute()
 		{
-			Thread.Sleep(new TimeSpan(0, 0, 0, 2)); // 2 seconds
+			System.Threading.Thread.Sleep(new TimeSpan(0, 0, 0, 2)); // 2 seconds
 		}
 	}
 }

@@ -55,6 +55,7 @@
     <Compile Include="Arguments\NamespaceDoc.cs" />
     <Compile Include="DataRow\DataRowExtensions.cs" />
     <Compile Include="DataRow\NamespaceDoc.cs" />
+    <Compile Include="Enum\EnumExtensions.cs" />
     <Compile Include="Enum\NamespaceDoc.cs" />
     <Compile Include="Enum\StringExtensions.cs" />
     <Compile Include="Arguments\ArgumentExtensions.cs" />
@@ -62,6 +63,9 @@
     <Compile Include="Stopwatch\NamespaceDoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stopwatch\ExecutionTimeTracer.cs" />
+    <Compile Include="Threading\ThreadExtensions.cs" />
+    <Compile Include="Wcf\NamespaceDoc.cs" />
+    <Compile Include="Wcf\WcfServiceRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
@@ -70,6 +74,7 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
