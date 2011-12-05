@@ -40,10 +40,11 @@
     <Reference Include="pnunit.framework, Version=1.0.4109.34242, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.2.5.10.11092\lib\pnunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Rhino.Mocks">
+    <Reference Include="Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
       <HintPath>..\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceModel" />
@@ -67,9 +68,15 @@
     <Compile Include="Enum\EnumExtensionsTests.cs" />
     <Compile Include="Enum\StringExtensionsTests.cs" />
     <Compile Include="Arguments\ArgumentExtensionsTests.cs" />
-    <Compile Include="Exceptions\MissingMessageQueueExceptionTests.cs" />
+    <Compile Include="AppStartupValidation\MissingMessageQueueExceptionTests.cs" />
+    <Compile Include="Mef\ImportManyFromAssemblyTests.cs" />
+    <Compile Include="Mef\ImportManyFromDirectoryTests.cs" />
+    <Compile Include="Mef\Services\IServiceThatIsNotExported.cs" />
+    <Compile Include="Mef\Services\ServiceThatIsNotExported.cs" />
     <Compile Include="MockedObjects\MockedHttpContext.cs" />
     <Compile Include="MockedObjects\MockedHttpRequest.cs" />
+    <Compile Include="Serialization\BinarySerializationHelperTests.cs" />
+    <Compile Include="Serialization\XmlSerializationHelperTests.cs" />
     <Compile Include="Threading\ThreadExtensionsTests.cs" />
     <Compile Include="Wcf\WcfServiceRunnerTests.cs" />
     <Compile Include="WebCache\CacheReaderTests.cs" />
@@ -87,6 +94,18 @@
       <Project>{B8DD5508-2A8C-48CA-8F85-A7F880F28DEA}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Tests.Core\Tests.Core.csproj">
+      <Project>{7AEC079E-FCF3-4BB6-9630-3808D39862E9}</Project>
+      <Name>Tests.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tests.Mef.EmailService\Tests.Mef.EmailService.csproj">
+      <Project>{A823BE3D-AFF8-44E4-8992-59519FC557D8}</Project>
+      <Name>Tests.Mef.EmailService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tests.Mef.FileWatcherService\Tests.Mef.FileWatcherService.csproj">
+      <Project>{04499B6D-8A42-4AD7-A84F-0009421A1D82}</Project>
+      <Name>Tests.Mef.FileWatcherService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UtilitiesWeb\UtilitiesWeb.csproj">
       <Project>{F27D1C67-B6B9-4498-B9F3-359CFB88EF5E}</Project>
       <Name>UtilitiesWeb</Name>
@@ -103,6 +122,7 @@
   <ItemGroup>
     <Folder Include="AppStartupValidation\DirectoryValidatorTestPath1\" />
     <Folder Include="AppStartupValidation\DirectoryValidatorTestPath2\" />
+    <Folder Include="Log4Net\" />
     <Folder Include="WebHttpHandlers\" />
   </ItemGroup>
   <ItemGroup>

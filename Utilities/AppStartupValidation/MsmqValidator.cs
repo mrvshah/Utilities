@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Messaging;
 using Utilities.Arguments;
 using Utilities.Configuration;
-using Utilities.Exceptions;
 
 namespace Utilities.AppStartupValidation
 {

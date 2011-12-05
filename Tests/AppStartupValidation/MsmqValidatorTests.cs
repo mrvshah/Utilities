@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 using Utilities.AppStartupValidation;
-using Utilities.Exceptions;
 
 namespace Tests.AppStartupValidation
 {

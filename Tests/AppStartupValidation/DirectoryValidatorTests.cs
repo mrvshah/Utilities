@@ -40,7 +40,7 @@ namespace Tests.AppStartupValidation
 		private IEnumerable<string> GetAllValidPaths()
 		{
 			var currentDirecotry = Directory.GetCurrentDirectory();
-			string path1 = null, path2 = null;
+			string path1, path2;
 
 #if DEBUG
 			path1 = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");
@@ -60,7 +60,7 @@ namespace Tests.AppStartupValidation
 		private IEnumerable<string> GetPathsWithAtleastOneInValid()
 		{
 			var currentDirecotry = Directory.GetCurrentDirectory();
-			string validPath = null, invalidPath = null;
+			string validPath, invalidPath;
 
 #if DEBUG
 			validPath = currentDirecotry.Replace(@"bin\Debug", @"AppStartupValidation\DirectoryValidatorTestPath1");

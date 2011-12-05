@@ -1,8 +1,12 @@
 <Modules>
   <Module PersistentId="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3" ModuleId="Utilities" />
   <Module PersistentId="F3EA559A-48D1-43CD-B3B3-EB18085AE448" ModuleId="Tests" />
-  <Module PersistentId="d:Miscellaneous Files" ModuleId="mscorlib" />
+  <Module PersistentId="121FC066-DEFA-4674-84D2-01D42CB28D20" ModuleId="mscorlib" />
   <Module PersistentId="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E" ModuleId="UtilitiesDepedantOnSystemWeb" />
   <Module PersistentId="B8DD5508-2A8C-48CA-8F85-A7F880F28DEA" ModuleId="Common" />
   <Module PersistentId="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" ModuleId="nunit.framework" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib_1" />
+  <Module PersistentId="A823BE3D-AFF8-44E4-8992-59519FC557D8" ModuleId="Tests.Mef.EmailService" />
+  <Module PersistentId="7AEC079E-FCF3-4BB6-9630-3808D39862E9" ModuleId="Tests.Core" />
+  <Module PersistentId="04499B6D-8A42-4AD7-A84F-0009421A1D82" ModuleId="Tests.Mef.FileWatcherService" />
 </Modules>
