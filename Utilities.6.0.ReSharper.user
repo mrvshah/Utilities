@@ -9,9 +9,7 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:DirectoryValidator.cs" caret="1281" fromTop="21" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:AppSettingsValidator.cs" caret="0" fromTop="0" />
-      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="1223" fromTop="0" />
       <File id="B8DD5508-2A8C-48CA-8F85-A7F880F28DEA/d:Properties/f:AssemblyInfo.cs" caret="1391" fromTop="28" />
       <File id="B8DD5508-2A8C-48CA-8F85-A7F880F28DEA/d:Configuration/f:AppSettingsReader.cs" caret="0" fromTop="0" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Mef/f:NamespaceDoc.cs" caret="342" fromTop="7" />
@@ -37,8 +35,10 @@
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MissingMessageQueueException.cs" caret="301" fromTop="10" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:MissingMessageQueueExceptionTests.cs" caret="101" fromTop="3" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1438" fromTop="20" />
-      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Properties/f:AssemblyInfo.cs" caret="1476" fromTop="8" />
       <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/f:packages.config" caret="52" fromTop="2" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:WebHttpHandlers/f:BaseHttpHandler.cs" caret="4577" fromTop="142" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="2889" fromTop="23" />
     </RecentFiles>
     <RecentEdits>
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Serialization/f:XmlSerializationHelper.cs" caret="1313" fromTop="14" />
@@ -60,8 +60,17 @@
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:AppStartupValidation/f:MissingMessageQueueException.cs" caret="301" fromTop="10" />
       <File id="F3EA559A-48D1-43CD-B3B3-EB18085AE448/d:AppStartupValidation/f:MissingMessageQueueExceptionTests.cs" caret="101" fromTop="3" />
       <File id="EA0D7A9A-CBE7-4752-AB21-F72E557A71D3/d:Properties/f:AssemblyInfo.cs" caret="1482" fromTop="20" />
-      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Properties/f:AssemblyInfo.cs" caret="1520" fromTop="8" />
       <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/f:packages.config" caret="52" fromTop="2" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="407" fromTop="7" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="831" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="1286" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="1730" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="2287" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="2846" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="3435" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="4027" fromTop="17" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Log4Net/f:LogWrapper.cs" caret="51" fromTop="1" />
+      <File id="F27D1C67-B6B9-4498-B9F3-359CFB88EF5E/d:Properties/f:AssemblyInfo.cs" caret="1520" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

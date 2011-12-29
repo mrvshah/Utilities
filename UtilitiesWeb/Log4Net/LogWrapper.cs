@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+using System.Collections.Concurrent;
 using System.Reflection;
 using log4net;
 using log4net.Config;
@@ -11,7 +11,7 @@ namespace Utilities.Log4Net
 	/// </summary>
 	public class LogWrapper
 	{
-		private readonly Dictionary<string, ILog> map = new Dictionary<string, ILog>();
+		private readonly ConcurrentDictionary<string, ILog> map = new ConcurrentDictionary<string, ILog>();
 
 		/// <summary>
 		/// Gets the specified instance from cache if it exists
@@ -25,7 +25,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(typeof(T).Name, out log))
 			{
 				log = LogManager.GetLogger(typeof(T));
-				map.Add(typeof(T).Name, log);
+				map.GetOrAdd(typeof(T).Name, log);
 			}
 
 			return log;
@@ -43,7 +43,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(type.Name, out log))
 			{
 				log = LogManager.GetLogger(type);
-				map.Add(type.Name, log);
+				map.GetOrAdd(type.Name, log);
 			}
 
 			return log;
@@ -61,7 +61,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(type, out log))
 			{
 				log = LogManager.GetLogger(type);
-				map.Add(type, log);
+				map.GetOrAdd(type, log);
 			}
 
 			return log;
@@ -82,7 +82,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(type.Name, out log))
 			{
 				log = LogManager.GetLogger(repository, type);
-				map.Add(type.Name, log);
+				map.GetOrAdd(type.Name, log);
 			}
 
 			return log;
@@ -103,7 +103,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(type, out log))
 			{
 				log = LogManager.GetLogger(repository, type);
-				map.Add(type, log);
+				map.GetOrAdd(type, log);
 			}
 
 			return log;
@@ -124,7 +124,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(type, out log))
 			{
 				log = LogManager.GetLogger(assemblyRepository, type);
-				map.Add(type, log);
+				map.GetOrAdd(type, log);
 			}
 
 			return log;
@@ -145,7 +145,7 @@ namespace Utilities.Log4Net
 			if (!map.TryGetValue(type.Name, out log))
 			{
 				log = LogManager.GetLogger(assemblyRepository, type);
-				map.Add(type.Name, log);
+				map.GetOrAdd(type.Name, log);
 			}
 
 			return log;
