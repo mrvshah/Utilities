@@ -1,9 +1,0 @@
-R# version: 5.1.3000.12
-assembly nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77
-  file D:\MyData\git\Utilities\packages\NUnit.2.5.10.11092\lib\nunit.framework.dll mtime 02/11/2011 21:01:57
-referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  file C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 12/04/2011 14:11:04
-referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  file C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 18/03/2010 19:31:26
-referenced assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-  file C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll mtime 18/03/2010 19:31:26

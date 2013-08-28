@@ -1,1 +1,0 @@
-D:\MyData\git\Utilities\packages\YUICompressor.NET.1.6.0.2\lib\net35\Yahoo.Yui.Compressor.dll
